@@ -10,5 +10,5 @@ var n8 = document.getElementById("number8")
 var n9 = document.getElementById("number9")
 function number(num) {
     var numero = "";
-    resposta.innerHTML = Number(num.value)
+    resposta.innerHTML = Number(num.value)// n concatena
 }
