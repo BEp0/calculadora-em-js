@@ -1,28 +1,39 @@
-body{
-    font: normal 15pt Arial;
-    background-color: rgb(100, 237, 168);
+  
+body {
+    background-color: rgb(70, 236, 125);
+    font: normal 16pt Arial;
+}
+header {
+    color: white;
     text-align: center;
-    margin: auto;/*deixa no centro*/
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
     width: 500px;
+    margin: auto;
+    box-shadow: 5px, 5px, 10px black;
+}
+footer {
+    border-radius: 5px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(83, 81, 211);
+    background-color: white;
+    width: 500px;
+    margin: auto;
+}
+div {
+    text-align: center;
+    padding: 8px;
+}
+textarea{
+    color: white;
+    background-color: rgb(168, 168, 168);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
     
 }
-#h-f{
-    background-color: white;
-    padding: 1px;
-    border-radius: 10px;
-}
-section{
-    background-color: wheat;
-    border-radius: 10px;
-}
-#backcal{
-    background-color: white;
-    width: 450px;
-    margin: auto;
-    padding-top: 10px;
-    border-radius: 5px;
-}
-#op{
-    width: 400px;
-}
-
