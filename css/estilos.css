@@ -1,0 +1,28 @@
+body{
+    font: normal 15pt Arial;
+    background-color: rgb(100, 237, 168);
+    text-align: center;
+    margin: auto;/*deixa no centro*/
+    width: 500px;
+    
+}
+#h-f{
+    background-color: white;
+    padding: 1px;
+    border-radius: 10px;
+}
+section{
+    background-color: wheat;
+    border-radius: 10px;
+}
+#backcal{
+    background-color: white;
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+#op{
+    width: 400px;
+}
+
