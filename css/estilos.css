@@ -29,11 +29,22 @@ div {
     padding: 8px;
 }
 textarea{
+    font: normal 20pt Arial;
     color: white;
     background-color: rgb(168, 168, 168);
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 450px;
-    
+    border-radius: 10px;
+}
+#areaResposta{
+    display: flex;
+    flex-direction: row;
+}
+#res{
+    width: 50px;
+}
+button{
+    border-radius: 5px;
 }
