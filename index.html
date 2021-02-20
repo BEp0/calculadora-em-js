@@ -8,7 +8,18 @@
     <link rel="shortcut icon"
         href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/abacus_1f9ee.png"
         type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
+   <!--
+       <link rel="stylesheet" href="css/estilos.css">
+   --> 
+   <!--add no css dps-->
+   <style>
+       body{
+           text-align: center;
+       }
+       input{
+           width: 70px;
+       }
+   </style>
 </head>
 
 <body>
@@ -17,24 +28,36 @@
     </header>
 
     <section>
-        <div id="areaResposta">
-            <textarea name="resposta" id="resposta" disabled></textarea>
-            <button id="res">=</button>
+        <div id="display">
+            <input type="text">
+            <button>=</button>
         </div>
-        <div id="numers">
-            <button id="number1" value="1" onclick="number(this)">1</button>
-            <button id="number2" value="2" onclick="number(this)">2</button>
-            <button id="number3" value="3" onclick="number(this)">3</button>
-            <button id="number4" value="4" onclick="number(this)">4</button>
-            <button id="number5" value="5" onclick="number(this)">5</button>
-            <button id="number6" value="6" onclick="number(this)">6</button>
-            <button id="number7" value="7" onclick="number(this)">7</button>
-            <button id="number8" value="8" onclick="number(this)">8</button>
-            <button id="number9" value="9" onclick="number(this)">9</button>
-            <button id="number0" value="0" onclick="number(this)">0</button>
-
+        <div id="calc-body">
+            <div id="top-button">
+                <button >7</button>
+                <button>8</button>
+                <button>9</button>
+                <button id="operation">+</button>
+            </div>
+            <div id="middle-button">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button id="operation">-</button>
+            </div>
+            <div id="bot-button">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button id="operation">X</button>
+            </div>
+            <div id="low-button">
+                <button>C</button>
+                <button>0</button>
+                <button>.</button>
+                <button id="operation">/</button>
+            </div>
         </div>
-
     </section>
 
     <footer>
@@ -44,7 +67,15 @@
             </a>
         </p>
     </footer>
+    <script>
+        // add no main.js dps
+        function botao(){
+
+        }
+    </script>
+    <!--
     <script src="scripts/main.js"></script>
+    -->
 </body>
 
 </html>

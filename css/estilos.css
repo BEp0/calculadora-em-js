@@ -41,6 +41,7 @@ textarea{
 #areaResposta{
     display: flex;
     flex-direction: row;
+    height: 50px;
 }
 #res{
     width: 50px;
