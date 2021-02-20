@@ -8,59 +8,85 @@
     <link rel="shortcut icon"
         href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/abacus_1f9ee.png"
         type="image/x-icon">
-   <!--
+    <!--
        <link rel="stylesheet" href="css/estilos.css">
-   --> 
-   <!--add no css dps-->
-   <style>
-       body{
-           text-align: center;
-       }
-       input{
-           width: 70px;
-       }
-   </style>
+   -->
+    <!--add no css dps-->
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(70, 236, 125);
+            font: normal 14pt Arial;
+        }
+
+        #back-white {
+            width: 250px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        section {
+            padding: 5px;
+        }
+
+        #display,
+        #calc-body {
+            background-color: yellow;
+            padding: 5px;
+        }
+
+        input {
+            height: 30px;
+            width: 150px;
+        }
+
+        button {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <h1>Calculadora em JS:</h1>
+    <header id="back-white">
+        <h1>Calculadora</h1>
     </header>
 
-    <section>
+    <section id="back-white">
         <div id="display">
             <input type="text">
-            <button>=</button>
+            <button onclick="res();">=</button>
         </div>
         <div id="calc-body">
             <div id="top-button">
-                <button >7</button>
-                <button>8</button>
-                <button>9</button>
+                <button onclick="number();" value="7" id="7">7</button>
+                <button onclick="number();">8</button>
+                <button onclick="number();">9</button>
                 <button id="operation">+</button>
             </div>
             <div id="middle-button">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
+                <button onclick="number();">4</button>
+                <button onclick="number();">5</button>
+                <button onclick="number();">6</button>
                 <button id="operation">-</button>
             </div>
             <div id="bot-button">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
+                <button onclick="number();">1</button>
+                <button onclick="number();">2</button>
+                <button onclick="number();">3</button>
                 <button id="operation">X</button>
             </div>
             <div id="low-button">
                 <button>C</button>
-                <button>0</button>
+                <button onclick="number();">0</button>
                 <button>.</button>
                 <button id="operation">/</button>
             </div>
         </div>
     </section>
 
-    <footer>
+    <footer id="back-white">
         <p>
             <a href="https://github.com/BEp0" target="_blank">
                 &copy; Bernardo P S Souza
@@ -69,7 +95,10 @@
     </footer>
     <script>
         // add no main.js dps
-        function botao(){
+        function number() {
+
+        }
+        function res() {
 
         }
     </script>
